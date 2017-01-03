@@ -14,6 +14,7 @@ function removeFs(tree, dir){
 		fs.removeSync(path.join(dir, node))
 	}
 }
+
 function createFs(node, dir){
 	for(let prop in node){
 		if(typeof(node[prop]) === 'string'){
