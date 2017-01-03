@@ -14,7 +14,8 @@ const fsBuilder = require('fs-builder');
 const tree = {
   directory: {
     subDirectory: {
-      fileName: 'fileContent'
+      'fileName.js': 'fileContent',
+      'fileName.css': 'fileContent'
     }
   }
 }
